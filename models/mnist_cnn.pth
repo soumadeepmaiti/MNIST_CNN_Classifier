@@ -1,0 +1,5 @@
+import torch
+
+# Assuming 'model' is your trained model
+torch.save(model.state_dict(), 'models/mnist_cnn.pth')
+

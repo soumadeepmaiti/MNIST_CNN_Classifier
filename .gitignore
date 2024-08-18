@@ -1,0 +1,45 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/
+
+# Saved models
+saved_models/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.DS_Store
+
+# Virtual environments
+.env
+.venv
+
+# System-specific files
+Thumbs.db
+.DS_Store
+
+# VSCode settings directory (if using VSCode)
+.vscode/
+
+# Python generated files
+*.pyo
+*.pyd
+*.pyc
+
+# Images (if you don't want to version control them)
+# images/
+
