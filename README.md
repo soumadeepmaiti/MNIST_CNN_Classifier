@@ -25,31 +25,29 @@ The repository is organized as follows:
 
 ```plaintext
 MNIST_CNN_Project/
-├── data/                              # Directory to store MNIST data
-├── saved_models/                      # Directory to store trained models and checkpoints
-│   ├── mnist_cnn_final.pth            # Final trained model
-│   ├── checkpoint_epoch_10.pth        # Checkpoint after 10 epochs
-│   └── ...                            # Other model-related files
-├── src/                               # Source code directory
-│   ├── data_loader.py                 # Data loading script
-│   ├── cnn_model.py                   # CNN model definition
-│   ├── train.py                       # Model training logic
-│   ├── evaluate.py                    # Model evaluation logic
-│   ├── metrics.py                     # Performance metrics and plotting
-│   └── main.py                        # Main script to run the project
-├── notebooks/                         # Jupyter notebooks for analysis and prototyping
-│   ├── EDA_MNIST.ipynb                # Exploratory Data Analysis
-│   ├── Model_Prototyping.ipynb        # Model prototyping and experimentation
-│   ├── Model_Results_and_Visualizations.ipynb  # Visualizations and results
-│   └── Project_Walkthrough.ipynb      # Comprehensive project walkthrough
-├── images/                            # Directory for plots and visualizations
-│   ├── loss_vs_epoch.png              # Loss curve plot
-│   ├── confusion_matrix.png           # Confusion matrix plot
-│   └── ...                            # Other visualizations
-├── README.md                          # Project overview and instructions
-├── requirements.txt                   # Python dependencies
-├── .gitignore                         # Ignored files and directories
-└── LICENSE                            # License for the project
+├── data/                              
+├── saved_models/                      
+│   └── mnist_cnn_final.pth                         
+├── src/                               
+│   ├── data_loader.py                 
+│   ├── cnn_model.py                   
+│   ├── train.py                       
+│   ├── evaluate.py                    
+│   ├── metrics.py                     
+│   └── main.py                        
+├── notebooks/                         
+│   ├── EDA_MNIST.ipynb                
+│   ├── Model_Prototyping.ipynb        
+│   ├── Model_Results_and_Visualizations.ipynb  
+│   └── Project_Walkthrough.ipynb   
+├── images/                            
+│   ├── loss_vs_epoch.png              
+│   ├── confusion_matrix.png           
+│   └── ...                            
+├── README.md                          
+├── requirements.txt                   
+├── .gitignore                         
+└── LICENSE                            
 ```
 
 ## Installation
